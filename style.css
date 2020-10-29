@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+*,*::before,*:after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+img{
+    height: auto;
+}
+.main-title{
+    font-size: 64px;
+    line-height: 75px;
+}
+.main-text {
+    font-size: 24px;
+    line-height: 42px;
+}
+.banner {
+    height: 958px;
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true");
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    font-size: 80px;
+    line-height: 94px;
+}
+.banner-text{
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+.community{
+    display: flex;
+    justify-content: space-between;
+}
+.community-logo {
+    width: 60px;
+    height: 60px;
+}
+.about{
+    padding-top: 64px;
+    padding-bottom: 56px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.about h2{
+    margin-bottom: 40px;
+}
+.about-img{
+    margin-bottom: 24px;
+}
+.about-img{
+    width: 384px;
+    height: 384px;
+}
+.about-me li{
+    margin-bottom: 8px;
+}
+.about-me li:last-child{
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+.about hr{
+    width: 384px;
+    margin-bottom: 32px;
+}
+
+.about-job{
+    margin-bottom: 32px;
+}
+.about-job li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-job .circle{
+    display:inline-block;
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 22px;
+    margin-right: 16px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brand{
+    background-color: #000000;
+    border: 1px solid #707070;
+    color:#FFFFFF;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 160px;   
+}
+.brand .main-title{
+    margin-bottom: 16px;
+}
+.brand-text{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 68px;
+}
+.brand-img{
+    margin-bottom: 40px;
+}
+
+.works{
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 160px;
+}
+.works-text{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 56px;
+}
+
+.works .container li{
+    margin-bottom: 56px;
+}
+
+.contact{
+    background-color: #000000;
+    color:#FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+.contact .main-title{
+    margin-bottom: 16px;
+}
+.contact-list li{
+    margin-bottom: 16px;
+}
+
+.contact-list li a{
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+}
